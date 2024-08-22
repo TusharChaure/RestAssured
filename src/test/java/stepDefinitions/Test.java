@@ -1,8 +1,5 @@
 package stepDefinitions;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.response.Response;
