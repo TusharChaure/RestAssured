@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features = { "src/test/resources/rigorousTestCases" }, 
-		glue = { "stepDefinitions" }, tags = "@test",
+		glue = { "stepDefinitions" }, tags = "@Test",
 		plugin = {"extentReport.ExtentCucumberAdapter"},
 		monochrome = true,
 		strict = true)

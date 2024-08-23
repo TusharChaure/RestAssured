@@ -1,4 +1,4 @@
-@test
+@Test
 Feature: Test login functionality application
 
   Scenario: User login
